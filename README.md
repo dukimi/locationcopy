@@ -1,6 +1,8 @@
 # Location Copy
-
 This mod makes copying location in Minecraft much more convenient.
+
+# Download
+[Download](https://github.com/dukimi/locationcopy/issues).
 
 # Function
 Simply press the "G" key to copy your current location and world.   
