@@ -1,6 +1,8 @@
 # Location Copy
 This mod makes copying location in Minecraft much more convenient.
 
+![copyxyzandworldname](https://cdn.modrinth.com/data/cached_images/ffa686113a94dcb5b9833a44fec28b65bb593327.jpeg)
+
 # Function
 Simply press the "G" key to copy your current location and world.   
 (You can also customize the key to something else in the key bind settings.)
@@ -11,6 +13,8 @@ You can set the mod by pressing the "I" key in the game or using the ModMenu int
 (0.0.3~1.0.5 are available in "config\locationcopy\config.properties")
 
 ## How to set up "Advanced" mode (LocationCopy 1.2.0 or higher)
+![AdvancedUI](https://cdn.modrinth.com/data/cached_images/85cc7ea7eb3b3c96eeb0b25f08acfbf64cdf14c2.png)
+
 “%.nf” in advanced settings, "n" represents the number of decimal places. It is set to 2 by default and you can adjust this number. If you enter 0, only integer value will appear.
 
 If you want to display only some of the three locations (e.g. Show only x and z locations), remove the location you want to clear (e.g. y%.2f). It will not be displayed.
@@ -20,13 +24,13 @@ If you want to display only some of the three locations (e.g. Show only x and z 
 **z-value: z%.2f**   
 **World Name: worldName**   
 
-"worldName" represents the world. If you want to display the world, use this. If you do not want the world name to be included in the copied field, remove "worldName".
+"worldName" represents the world name. If you want to display the world name, use this. If you do not want the world name to be included in the copied field, remove "worldName".
 
 ----------------
 ### How to set up "Advanced" mode (LocationCopy 1.1.0 - 1.1.3)   
 “%.nf” in advanced settings, "n" represents the number of decimal places. It is set to 2 by default and you can adjust this number. If you enter 0, only integer value will appear.
 
-"%s" represents the world. If you want to display the world, use this. If you do not want the world name to be included in the copied field, remove "%s".
+"%s" represents the world name. If you want to display the world name, use this. If you do not want the world name to be included in the copied field, remove "%s".
 
 But be careful. If incorrect values ​​are entered in advanced mode, Minecraft may crash when copying the location!   
 If an incorrect value is assigned, it will be restored to its original state when switching to another mode and then setting it back to advanced mode.
