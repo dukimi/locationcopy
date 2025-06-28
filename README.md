@@ -1,18 +1,25 @@
+## !!! IMPORTANT !!!
+**In Minecraft v1.21.6(LocationCopy v1.2.8), the default key for LocationCopy has been changed to 'G' -> 'B'** because the new feature 'Quick Actions' uses the default key 'G'.   
+
+**_If the 'G' key of 'Copy Location' overlaps with the 'G' key of 'Quick Actions', the location copy does not work properly._**   
+
+**If you have used LocationCopy before, make sure that the key does not overlap in 'Options -> Controls -> Key Binds'.**
+
 # Location Copy
 This mod makes copying location in Minecraft much more convenient.
 
 ![copyxyzandworldname](https://cdn.modrinth.com/data/cached_images/ffa686113a94dcb5b9833a44fec28b65bb593327.jpeg)
 
 # Function
-Simply press the "G" key to copy your current location and world.   
+Simply press the "B" key(LocationCopy v1.2.8 or higher) to copy your current location and world.   
 (You can also customize the key to something else in the key bind settings.)
 
 **If you install ModMenu as an additional mod, it's convenient because you can easily adjust the settings from the main screen. (Optional)**
 
 You can set the mod by pressing the "I" key in the game or using the ModMenu interface. If you want a more precise configuration, you can adjust it in "config\LocationCopy.properties".   
-(0.0.3~1.0.5 are available in "config\locationcopy\config.properties")
+(v0.0.3 ~ v1.0.5 are available in "config\locationcopy\config.properties")
 
-## How to set up "Advanced" mode (LocationCopy 1.2.0 or higher)
+## How to set up "Advanced" mode (LocationCopy v1.2.0 or higher)
 ![AdvancedUI](https://cdn.modrinth.com/data/cached_images/85cc7ea7eb3b3c96eeb0b25f08acfbf64cdf14c2.png)
 
 “%.nf” in advanced settings, "n" represents the number of decimal places. It is set to 2 by default and you can adjust this number. If you enter 0, only integer value will appear.
@@ -27,7 +34,7 @@ If you want to display only some of the three locations (e.g. Show only x and z 
 "worldName" represents the world name. If you want to display the world name, use this. If you do not want the world name to be included in the copied field, remove "worldName".
 
 ----------------
-### How to set up "Advanced" mode (LocationCopy 1.1.0 - 1.1.3)   
+### How to set up "Advanced" mode (LocationCopy v1.1.0 - v1.1.3)   
 “%.nf” in advanced settings, "n" represents the number of decimal places. It is set to 2 by default and you can adjust this number. If you enter 0, only integer value will appear.
 
 "%s" represents the world name. If you want to display the world name, use this. If you do not want the world name to be included in the copied field, remove "%s".
